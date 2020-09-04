@@ -9,3 +9,22 @@ function loop(a) {
 }
 
 loop(a)
+
+
+// OR
+
+arr = [1,2,3,4,5,6]
+
+i = 0
+
+function forEach(a) {
+
+  if(i < a.length) {
+     i++
+     console.log(i)
+     forEach(a)
+  }
+  
+}
+
+forEach(arr)
